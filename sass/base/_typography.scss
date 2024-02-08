@@ -1,0 +1,44 @@
+$h1: 4.5rem;
+$h2: 3rem;
+$h3: 2.5rem;
+$h4: 1.75rem;
+$h5: 1.5rem;
+$h6: 1.25rem;
+
+$sub: 1.125rem;
+$p: 1rem;
+
+.heading-1 {
+  font-size: $h1;
+  font-family: $font-family;
+  margin: 0;
+  color: $heading;
+}
+
+.heading-2 {
+  font-size: $h2;
+  color: $black;
+  line-height: 4.0625rem;
+  letter-spacing: 1%;
+}
+
+.heading-5 {
+  font-size: $h2;
+  color: $black;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+}
+
+.paragraph {
+  color: $paragraph-color;
+  font-size: $p;
+  line-height: 1.875rem;
+  letter-spacing: 2%;
+}
+
+.accent-text {
+  color: $primary;
+}
+.heading-color {
+  color: $heading;
+}

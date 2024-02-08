@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("./abstracts/_funstions.scss");
 @import url("./abstracts/_mixins.scss");
 @import url("./abstracts/_variables.scss");
-
 @import url("./base/_typography.scss");
 @import url("./base/_utilities.scss");
 @import url("./base/_base.scss");
