@@ -11,8 +11,6 @@
     display: flex;
   }
   &__inner {
-    // width: 50%;
-    max-width: 37.5rem;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -21,7 +19,6 @@
     max-width: 501px;
   }
   &__images {
-    max-width: 37.5rem;
     position: relative;
     overflow: visible;
     width: 100%;
@@ -33,24 +30,38 @@
       position: absolute;
       top: -3%;
       left: 33%;
+      @media screen and (min-width: 1750px) {
+        left: 60%;
+      }
     }
 
     &--2 {
       position: absolute;
       left: -5%;
       top: 37%;
+      @media screen and (min-width: 1750px) {
+        left: 25%;
+      }
     }
 
     &--3 {
       position: absolute;
       right: -5%;
       top: 20%;
+
+      @media screen and (min-width: 1750px) {
+        right: -10%;
+      }
     }
 
     &--4 {
       position: absolute;
       left: 46%;
       bottom: -11%;
+      @media screen and (min-width: 1750px) {
+        bottom: -30%;
+        left: 60%;
+      }
     }
   }
 }

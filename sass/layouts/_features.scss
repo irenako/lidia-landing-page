@@ -1,0 +1,42 @@
+.features {
+  &__subheading{}
+
+  &__heading{}
+
+  &__container{
+    padding-top: 5.625rem;
+    display: flex;
+    gap: 11.625rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+
+  &__icon{
+    width: 45px;
+    height: 45px;
+  }
+
+  &__icon-container {
+    display: flex;
+    width: 102px;
+    height: 102px;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    box-shadow: 0px 30px 60px 0px rgba(71, 74, 87, 0.25);
+    border-radius: 26px;
+  }
+
+  &__h{}
+
+  &__p {
+    text-align: center;
+  }
+}

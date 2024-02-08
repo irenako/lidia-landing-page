@@ -26,7 +26,7 @@ $p: 1rem;
 }
 
 .heading-5 {
-  font-size: $h2;
+  font-size: $h5;
   color: $black;
   line-height: 1.5rem;
   letter-spacing: 2%;
@@ -53,8 +53,22 @@ a, a:hover, a:visited {
   font-size: .875rem;
   font-weight: 400;
   text-transform: capitalize;
+  transition: $transition;
+}
+
+a:hover {
+  color: $primary-active;
 }
 
 a.focus, a.focus:hover, a.focus:visited {
   color: $primary-active;
+}
+
+.subheading {
+  font-size: $sub;
+  color: $primary;
+  font-weight: 800;
+  letter-spacing: 1.71px;
+  text-transform: uppercase;
+  margin-bottom: .625rem;
 }
