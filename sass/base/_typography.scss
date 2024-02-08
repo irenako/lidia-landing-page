@@ -42,3 +42,15 @@ $p: 1rem;
 .heading-color {
   color: $heading;
 }
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: $link;
+  font-size: .875rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+a.focus, a.focus:hover, a.focus:visited {
+  color: $primary-active;
+}
