@@ -2,9 +2,29 @@
   color: $heading;
   font-size: $p;
   padding: .5625rem 2.9375rem;
-  border-radius: 10px;
+  border-radius:  $btn-border-radius;
   background-color: $white;
   text-decoration: none;
   font-weight: 700;
   line-height: 1.5625rem;
+  transition: $transition;
+}
+
+.btn-outline:hover {
+  color: $white;
+  background-color: $heading;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:visited {
+  border-radius: $btn-border-radius;
+  box-shadow: 0px 30px 60px 0px rgba($primary, 0.25);
+  width: max-content;
+  background-color: $primary;
+  color: $white;
+  padding: 1.125rem 3.375rem;
+  transition: $transition;
+}
+
+.btn-primary:hover {
+  background-color: $primary-active;
 }

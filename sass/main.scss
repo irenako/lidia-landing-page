@@ -4,10 +4,11 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
 
-@import "base/_base.scss";
-@import "base/_typography.scss";
-@import "base/_utilities.scss";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-@import "layouts/_header.scss";
+@import "layouts/header";
+@import "layouts/banner";
 
 @import "components/button";
