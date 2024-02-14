@@ -47,6 +47,10 @@ $p: 1rem;
   color: $heading;
 }
 
+.accent-light {
+  color: $primary-light;
+}
+
 a, a:hover, a:visited {
   text-decoration: none;
   color: $link;
@@ -71,4 +75,11 @@ a.focus, a.focus:hover, a.focus:visited {
   letter-spacing: 1.71px;
   text-transform: uppercase;
   margin-bottom: .625rem;
+}
+
+.subheading-2 {
+  font-size: $p;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
 }

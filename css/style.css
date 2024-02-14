@@ -55,6 +55,9 @@ html {
 .heading-color {
   color: #181E4B; }
 
+.accent-light {
+  color: #23A6F0; }
+
 a, a:hover, a:visited {
   text-decoration: none;
   color: #9A9EA6;
@@ -76,6 +79,12 @@ a.focus, a.focus:hover, a.focus:visited {
   letter-spacing: 1.71px;
   text-transform: uppercase;
   margin-bottom: .625rem; }
+
+.subheading-2 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px; }
 
 .header {
   display: flex;
@@ -189,7 +198,8 @@ a.focus, a.focus:hover, a.focus:visited {
   max-width: 1200px;
   max-height: 400px;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  margin: auto; }
 
 .service__image-wrapper {
   width: 600px;
@@ -230,6 +240,39 @@ a.focus, a.focus:hover, a.focus:visited {
   letter-spacing: 0.64px;
   line-height: normal;
   text-wrap: balance; }
+
+.reviews__container {
+  display: flex;
+  gap: 3.1875rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; }
+
+.reviews__heading {
+  margin-bottom: 5.625rem; }
+
+.review {
+  max-width: 366px;
+  max-height: 455px;
+  padding: 40px 58px 46px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #DEDEDE;
+  background: #FFF;
+  box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07); }
+  .review__image {
+    border-radius: 50%;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 15px;
+    max-width: 159px;
+    max-height: 159px; }
+  .review__p {
+    margin-bottom: 10px; }
 
 .btn-outline, .btn-outline:hover, .btn-outline:visited {
   color: #181E4B;
