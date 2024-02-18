@@ -5,14 +5,31 @@
   flex-wrap: wrap;
   @include padding-main;
 
+  @media screen and (max-width: 908px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   &__menu-container {
     display: flex;
     gap: 7.8125rem;
     align-items: center;
+    @media screen and (max-width: 908px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
   &__menu {
     display: flex;
     gap: 2.5rem;
+    // @media screen and (max-width: 1360px) {
+    //   justify-content: center;
+    // }
+    @media screen and (max-width: 767px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
   }
   &__btn-wrapper {
     display: flex;

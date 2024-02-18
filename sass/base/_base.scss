@@ -22,4 +22,7 @@ html {
   gap: 12.5rem;
   padding-top: 3.3125rem;
   @include padding-main;
+  @media screen and (max-width: $laptop) {
+    padding-top: 2rem;
+  }
 }

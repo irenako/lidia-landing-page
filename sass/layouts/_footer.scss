@@ -25,7 +25,10 @@
     flex-wrap: wrap;
     margin-bottom: 5.875rem;
     align-items: start;
-    text-align: center
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      padding: 0 2.5rem;
+    }
   }
 
   &__managed {

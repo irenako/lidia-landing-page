@@ -5,10 +5,16 @@
     right: 0;
     top: 0;
     z-index: -1;
+    @media screen and (max-width: 1360px) {
+      display: none;
+    }
   }
 
   &__container {
     display: flex;
+    @media screen and (max-width: 1360px) {
+      text-align: center;
+    }
   }
   &__inner {
     display: flex;
@@ -17,12 +23,24 @@
   }
   &__text {
     max-width: 501px;
+    @media screen and (max-width: 1360px) {
+      margin: auto;
+    }
+  }
+  &__btn {
+    @media screen and (max-width: 1360px) {
+      margin: 0 auto;
+    }
   }
   &__images {
     position: relative;
     overflow: visible;
     width: 100%;
+    @media screen and (max-width: 1360px) {
+      display: none;
+    }
   }
+  
 
   &__image {
 
@@ -32,6 +50,9 @@
       left: 33%;
       @media screen and (min-width: 1750px) {
         left: 60%;
+      }
+      @media screen and (max-width: 1420px) {
+        left: 36%;
       }
     }
 

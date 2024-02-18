@@ -8,6 +8,10 @@
     gap: 11.625rem;
     justify-content: center;
     align-items: flex-start;
+    @media screen and (max-width: 1150px) {
+      flex-wrap: wrap;
+      gap: 5rem;
+    }
   }
 }
 
@@ -33,9 +37,17 @@
     border-radius: 26px;
   }
 
-  &__h{}
+  &__h{
+    text-align: center;
+  }
 
   &__p {
     text-align: center;
+    @media screen and (max-width: 1150px) {
+      max-width: 50%;
+    }
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
   }
 }

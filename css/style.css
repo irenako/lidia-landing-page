@@ -24,6 +24,21 @@ html {
   padding-top: 3.3125rem;
   padding: 4.375rem 7.5rem;
 }
+@media screen and (max-width: 900px) {
+  .main {
+    padding: 2rem 3.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    padding: 2rem 1.75rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    padding-top: 2rem;
+  }
+}
 
 .heading-1 {
   font-size: 4.5rem;
@@ -34,12 +49,22 @@ html {
   line-height: 89px;
   letter-spacing: -3.04px;
 }
+@media screen and (max-width: 767px) {
+  .heading-1 {
+    font-size: 2.25rem;
+  }
+}
 
 .heading-2 {
   font-size: 3rem;
   color: #000000;
   line-height: 4.0625rem;
   letter-spacing: 1%;
+}
+@media screen and (max-width: 767px) {
+  .heading-2 {
+    font-size: 1.5rem;
+  }
 }
 
 .heading-5 {
@@ -113,14 +138,43 @@ a.focus, a.focus:hover, a.focus:visited {
   flex-wrap: wrap;
   padding: 4.375rem 7.5rem;
 }
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 2rem 3.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 2rem 1.75rem;
+  }
+}
+@media screen and (max-width: 908px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 .header__menu-container {
   display: flex;
   gap: 7.8125rem;
   align-items: center;
 }
+@media screen and (max-width: 908px) {
+  .header__menu-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 .header__menu {
   display: flex;
   gap: 2.5rem;
+}
+@media screen and (max-width: 767px) {
+  .header__menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
 }
 .header__btn-wrapper {
   display: flex;
@@ -145,6 +199,16 @@ a.focus, a.focus:hover, a.focus:visited {
   line-height: normal;
   padding: 4.375rem 7.5rem;
 }
+@media screen and (max-width: 900px) {
+  .footer__small {
+    padding: 2rem 3.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer__small {
+    padding: 2rem 1.75rem;
+  }
+}
 .footer__main {
   width: 100%;
   display: flex;
@@ -154,6 +218,11 @@ a.focus, a.focus:hover, a.focus:visited {
   margin-bottom: 5.875rem;
   align-items: start;
   text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .footer__main {
+    padding: 0 2.5rem;
+  }
 }
 .footer__managed {
   display: flex;
@@ -186,8 +255,18 @@ a.focus, a.focus:hover, a.focus:visited {
   top: 0;
   z-index: -1;
 }
+@media screen and (max-width: 1360px) {
+  .banner__bg-image {
+    display: none;
+  }
+}
 .banner__container {
   display: flex;
+}
+@media screen and (max-width: 1360px) {
+  .banner__container {
+    text-align: center;
+  }
 }
 .banner__inner {
   display: flex;
@@ -197,10 +276,25 @@ a.focus, a.focus:hover, a.focus:visited {
 .banner__text {
   max-width: 501px;
 }
+@media screen and (max-width: 1360px) {
+  .banner__text {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .banner__btn {
+    margin: 0 auto;
+  }
+}
 .banner__images {
   position: relative;
   overflow: visible;
   width: 100%;
+}
+@media screen and (max-width: 1360px) {
+  .banner__images {
+    display: none;
+  }
 }
 .banner__image--1 {
   position: absolute;
@@ -210,6 +304,11 @@ a.focus, a.focus:hover, a.focus:visited {
 @media screen and (min-width: 1750px) {
   .banner__image--1 {
     left: 60%;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .banner__image--1 {
+    left: 36%;
   }
 }
 .banner__image--2 {
@@ -250,6 +349,12 @@ a.focus, a.focus:hover, a.focus:visited {
   justify-content: center;
   align-items: flex-start;
 }
+@media screen and (max-width: 1150px) {
+  .features__container {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+}
 
 .feature {
   display: flex;
@@ -271,8 +376,21 @@ a.focus, a.focus:hover, a.focus:visited {
   box-shadow: 0px 30px 60px 0px rgba(71, 74, 87, 0.25);
   border-radius: 26px;
 }
+.feature__h {
+  text-align: center;
+}
 .feature__p {
   text-align: center;
+}
+@media screen and (max-width: 1150px) {
+  .feature__p {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .feature__p {
+    max-width: 100%;
+  }
 }
 
 .services__container {
@@ -280,6 +398,8 @@ a.focus, a.focus:hover, a.focus:visited {
   display: flex;
   flex-direction: column;
   gap: 140px;
+  max-width: 1200px;
+  flex-wrap: wrap;
 }
 
 .service__container {
@@ -293,6 +413,18 @@ a.focus, a.focus:hover, a.focus:visited {
   height: 100%;
   margin: auto;
 }
+@media screen and (max-width: 1430px) {
+  .service__container {
+    max-height: fit-content;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.service__container:last-child {
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+}
 .service__image-wrapper {
   width: 600px;
   height: 399px;
@@ -304,11 +436,23 @@ a.focus, a.focus:hover, a.focus:visited {
   background-repeat: no-repeat;
   border-radius: 10px;
 }
+@media screen and (max-width: 900px) {
+  .service__image-wrapper--1 {
+    max-width: 100%;
+    background-position: center;
+  }
+}
 .service__image-wrapper--2 {
   background: url("/img/service-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
+}
+@media screen and (max-width: 900px) {
+  .service__image-wrapper--2 {
+    max-width: 100%;
+    background-position: center;
+  }
 }
 .service__image {
   width: 100%;
@@ -319,6 +463,16 @@ a.focus, a.focus:hover, a.focus:visited {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+@media screen and (max-width: 1430px) {
+  .service__content {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .service__content {
+    max-width: 100%;
+  }
 }
 .service__paragraph-wrapper {
   display: flex;
@@ -357,6 +511,11 @@ a.focus, a.focus:hover, a.focus:visited {
   border: 1px solid #DEDEDE;
   background: #FFF;
   box-shadow: 0px 2.767px 2.214px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.522px 10.017px 0px rgba(0, 0, 0, 0.04), 0px 22.336px 17.869px 0px rgba(0, 0, 0, 0.04), 0px 41.778px 33.422px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+@media screen and (max-width: 767px) {
+  .review {
+    max-height: fit-content;
+  }
 }
 .review__image {
   border-radius: 50%;
