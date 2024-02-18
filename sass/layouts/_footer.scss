@@ -1,0 +1,54 @@
+.footer {
+  padding-top: 180px;
+
+  &__small{
+    background-color: $primary;
+    color: $white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5rem;
+    width: 100%;
+    font-size: $small-text;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    @include padding-main;
+  }
+
+  &__main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6.375rem;
+    flex-wrap: wrap;
+    margin-bottom: 5.875rem;
+    align-items: start;
+    text-align: center
+  }
+
+  &__managed {
+    @include flex-column;
+    gap: 25px;
+  }
+
+  &__socials{
+    @include flex-column;
+    gap: 52px;
+  }
+
+  &__slogan {
+    @include flex-column;
+    gap: 52px;
+  }
+  &__hash {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.socials__container {
+  display: flex;
+  gap: 14px;
+}

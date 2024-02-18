@@ -1,0 +1,8 @@
+@mixin padding-main {
+  padding: 4.375rem 7.5rem;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
