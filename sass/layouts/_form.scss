@@ -1,0 +1,49 @@
+.form {
+  @include flex-column;
+  gap: 1.5625rem;
+  border-radius: 5px;
+  border-top: 1.5px solid var(--Primary, #4475F2);
+  background: #FFF;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.10);
+  padding: 2.375rem 2.1875rem 20px;
+  margin-top: 50px;
+  max-width: 400px;
+  width: 100%;
+
+  @media screen and (max-width: 420px) {
+    max-width: 90%;
+  }
+
+  &__container {
+    width: 100%;
+    @include flex-column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  &__links {
+    display: flex;
+    gap: 3px;
+  }
+  &__text {
+    @include flex-column;
+    margin-bottom: .9375rem;
+    gap: .9375rem;
+  }
+
+  &__btn.btn-primary, &__btn.btn-primary:hover, &__btn.btn-primary:focus, &__btn.btn-primary:active {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__signup {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  &__p{
+    font-size: $small-text;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}

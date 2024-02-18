@@ -1,6 +1,10 @@
 .footer {
   padding-top: 180px;
 
+  &--form {
+    padding-top: 1.25rem;
+  }
+
   &__small{
     background-color: $primary;
     color: $white;
@@ -15,6 +19,12 @@
     font-weight: 600;
     line-height: normal;
     @include padding-main;
+
+    &--light {
+      background-color: $white;
+      color: $paragraph-color;
+      height: 4.875rem;
+    }
   }
 
   &__main{

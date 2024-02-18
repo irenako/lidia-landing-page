@@ -39,6 +39,13 @@ $small-text: .875rem;
   letter-spacing: 2%;
 }
 
+.heading-6 {
+  font-size: $h6;
+  color: $heading;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .paragraph {
   color: $paragraph-color;
   font-size: $p;

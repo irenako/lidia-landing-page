@@ -9,6 +9,37 @@
   <title>Lidia - Login</title>
 </head>
 <body>
-  <h1>Login</h1>
+  <main class="form__container">
+    <img src="./img/form-logo.png" alt="Logo" class="form__logo"> 
+    <form class="form" >
+      <div class="form__links">
+        <a href="/" class="form__link focus">Home</a>
+        <p> / </p>
+        <a href="/login.html" class="form__link">Login</a>
+      </div>
+      <div class="form__text">
+        <h6 class="heading-6">Login</h6>
+        <p>Input your username and password.</p>
+      </div>
+      <div class="input__container">
+        <label for="username" class="input__label">Email</label>
+        <input class="input" placeholder="e.g. John Doe" id="username" type="text"/>
+      </div>
+      <div class="input__container">
+        <label for="password" class="input__label">Password</label>
+        <input class="input" placeholder="e.g. 4kuBu7uhM3dk1t" id="password" type="text"/>
+      </div>
+      <a class="btn-primary form__btn">Login</a>
+    </form>
+
+    <div class="form__signup">
+      <p class="paragraph form__p">Don’t have an account? <a href="register" class="form__signup-link focus">Create one!</a></p>
+    </div>
+  </main>
+  <footer class="footer footer--form">
+    <div class="footer__small footer__small--light">
+      <p>© 2024 Lidia. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
