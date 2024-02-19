@@ -429,7 +429,7 @@ a.focus, a.focus:hover, a.focus:visited {
   height: 100%;
   margin: auto;
 }
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1439px) {
   .service__container {
     max-height: fit-content;
     justify-content: center;
