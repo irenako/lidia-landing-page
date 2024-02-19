@@ -18,6 +18,7 @@
   &__container {
     @include flex-column;
     gap: 11px;
+    height: 67px;
   }
 
   &__label{ 
@@ -25,5 +26,28 @@
     color: $heading;
     font-weight: 700;
     line-height: normal;  
+  }
+}
+
+.radio {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  accent-color: $primary;
+  color: $primary;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 1.25rem;
+  }
+  &__label {
+    color: $input-text-color;
+    font-size: $small-text;
+    font-weight: 700;
   }
 }

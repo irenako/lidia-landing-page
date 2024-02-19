@@ -2,7 +2,7 @@
   padding-top: 180px;
 
   &--form {
-    padding-top: 1.25rem;
+    padding-top: .5rem;
   }
 
   &__small{
@@ -24,6 +24,7 @@
       background-color: $white;
       color: $paragraph-color;
       height: 4.875rem;
+      padding: 1.5rem;
     }
   }
 
