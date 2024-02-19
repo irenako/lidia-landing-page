@@ -596,7 +596,7 @@ a.focus, a.focus:hover, a.focus:visited {
   display: flex;
   gap: 3px;
 }
-.form__link {
+.form__link, .form__link:hover, .form__link:visited {
   font-size: 16px;
 }
 .form__text {
