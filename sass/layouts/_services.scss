@@ -1,6 +1,6 @@
 .services {  
   &__container {
-    margin-top: 90px;
+    margin: 90px auto 0px;
     display: flex;
     flex-direction: column;
     gap: 140px;
@@ -9,9 +9,6 @@
     // @media screen and (max-width: 1430px) {
     //   flex-direction: row;
     // }
-    @media screen and (min-width: 1600px) {
-      max-width: 100%;
-    }
   }
 }
 
